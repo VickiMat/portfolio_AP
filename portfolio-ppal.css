@@ -1,0 +1,7 @@
+header{
+    background-color:#B1A0BF;
+}
+div[class|="col"]{
+    border: 2px solid yellow;
+}
+
