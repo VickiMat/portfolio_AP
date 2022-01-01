@@ -1,8 +1,6 @@
 header{
   background: linear-gradient(315deg, #ffffff 0%, #4D009974);
-}
-div[class|="col"]{
-    border: 2px solid yellow;
+  margin-bottom: -5rem;
 }
 
 #argprog {
@@ -17,30 +15,73 @@ div[class|="col"]{
     font-variant: normal;
     text-transform: none;
     text-align: justify;
+    padding-top: 5%;
     }
+    
 
+.editar {
+  padding-left:50%;
+}
 #MenuNav {
   text-align:center;
 }
 
 .banner{
- 
-  background-image: url(/images/banner.jpg);
+  background:#E1306C;
+  height: 200px;
+  padding: 30px;
+  max-height: 400px;
+  width:100%;
+  position: relative;
+}
+.circular-portrait {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 65px 0px;
+  z-index: 2;
+}
+
+.circular-portrait img {
+  width: 100%;
+  height: auto;
+}
+
+.dato-personal {
+  padding-left: 250px;
+  background-color:white;
+  font-size:20px;
+  margin-bottom: -5rem;
+}
+#dato-personal {
+  font-size: 40px;
+  position:relative;
+  z-index: 1;
+  background-color:white;
 }
 
 .descripcion {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 25px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin: 100px 5px;
+  padding-top: 50px;
+
 }
 
+.descripcion p {
+  width: 70%;
+  margin:auto;
+  padding: 10px;
+}
+/* titulos distintas secciones */ 
 .titulos {
   margin: 1em 0 0.5em 0;
   margin-left: 5px;
   margin-right: 5px;
   text-align:center;
-  font-family: 'Orienta', sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 30px;
   background: linear-gradient(315deg, #ffffff 0%, #4D009974);
   color: black;
@@ -51,6 +92,7 @@ div[class|="col"]{
   position: relative;
 }
 
+/*Botones redes sociales*/
     @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 *{
   margin: 0;
