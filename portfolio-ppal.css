@@ -27,13 +27,16 @@ header{
 }
 
 .banner{
-  background:#E1306C;
+  background-image:url(./images/banner2.png);
+  background-repeat: no-repeat;
+  background-size:cover;
   height: 200px;
   padding: 30px;
   max-height: 400px;
   width:100%;
   position: relative;
 }
+
 .circular-portrait {
   position: relative;
   width: 200px;
