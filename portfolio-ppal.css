@@ -1,6 +1,13 @@
 header{
   background: linear-gradient(315deg, #ffffff 0%, #4D009974);
-  margin-bottom: -5rem;
+  background-size: cover;
+  color: black;
+  border: 1px solid #fff;
+  border-radius: 0 10px 0 10px;
+	box-shadow: inset 0 0 5px rgba(53,86,129, 0.5);
+  position: relative;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 #argprog {
@@ -17,6 +24,28 @@ header{
     text-align: justify;
     padding-top: 5%;
     }
+
+a.login {
+      -webkit-appearance: button;
+      -moz-appearance: button;
+      appearance: button;
+  
+    text-decoration: none;
+    color: initial;
+    border: none;
+    color: white;
+    font-size: 20px;
+    background: #4D009974;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width:auto;
+    text-align:center;
+  }
+
+  a.login:hover {
+    background: darkorchid;
+  }
     
 
 .editar {
@@ -25,7 +54,7 @@ header{
 #MenuNav {
   text-align:center;
 }
-
+/* banner y foto de perfil */
 .banner{
   background-image:url(./images/banner2.png);
   background-repeat: no-repeat;
@@ -37,34 +66,24 @@ header{
   position: relative;
 }
 
-.circular-portrait {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  overflow: hidden;
+.nombre-titulo{
+  text-align: center;
+}
+
+#foto-perfil{
   border-radius: 50%;
-  margin: 65px 0px;
-  z-index: 2;
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  border: solid 3px darkviolet;
+  position: absolute;
+  margin-left: 5%;
+}
+.foto-perfil{
+  position: relative;
 }
 
-.circular-portrait img {
-  width: 100%;
-  height: auto;
-}
-
-.dato-personal {
-  padding-left: 250px;
-  background-color:white;
-  font-size:20px;
-  margin-bottom: -5rem;
-}
-#dato-personal {
-  font-size: 40px;
-  position:relative;
-  z-index: 1;
-  background-color:white;
-}
-
+/*acercar de mi*/ 
 .descripcion {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 25px;
@@ -78,6 +97,28 @@ header{
   margin:auto;
   padding: 10px;
 }
+
+/*BOTONES PARA PAGINA DE EDICION */
+.boton-edicion {
+  border:none;
+  background-color: transparent;
+  width: auto;
+}
+
+.botones-acerca-de {
+  text-align:end;
+  margin: auto;
+  width: 80%;
+}
+
+.editar-img {
+  margin-left: 185px;
+  position: absolute;
+  margin-top:175px;
+}
+
+
+
 /* titulos distintas secciones */ 
 .titulos {
   margin: 1em 0 0.5em 0;
@@ -124,6 +165,7 @@ footer{
 }
 .wrapper .button:hover{
   width: 200px;
+  text-decoration: none;
 }
 .wrapper .button .icon{
   display: inline-block;
